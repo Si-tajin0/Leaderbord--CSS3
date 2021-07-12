@@ -52,18 +52,19 @@ header {
     display: flex;
     justify-content: space-between;
 }
+.logo-text {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    margin-left: 20px;
+}
 .logo {
     width: 40px;
     height: 50px;
     margin-right: 16px;
     margin-bottom: 17px;
     margin-top: 26px;
-}
-.logo-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
+    
 }
 .logo-text h4 {
     font-size: 24px;
@@ -73,9 +74,9 @@ header {
 }
 .menu {
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-left: 36px;
+    margin-right: 20px;
 }
 .menu a {
     text-decoration: none;
@@ -107,6 +108,7 @@ Top player style
 }
 .player {
     display: flex;
+    align-items: center;
 }
 .player img {
     width: 56px;
