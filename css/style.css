@@ -135,6 +135,7 @@ Top player style
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 15px;
 }
  .blog .thumbnail img {
      width: 177px;
